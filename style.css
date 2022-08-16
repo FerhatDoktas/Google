@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px ;   
+}
+
+nav a{
+    text-decoration: none;
+
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right a{
+    margin: 5px;
+
+}
+.right img{
+    opacity: 0.5;
+}
+.right img:hover{
+    opacity: 1;
+}
+.right button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#glass, #microphon{
+    width: 20px;
+    height: auto;
+    
+    
+}
+footer{
+    bottom:0;
+    position:fixed;
+    background-color:#f2f2f2 ;
+    font-size:15px;
+    line-height: 36px;
+    width: 100%;
+
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .footleft{
+    float: left;
+    padding: 15px;
+}
+.footright{
+    float: right;
+    padding-right: 15px;
+} */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto 0px;
+}
+.search{
+    /* display: flex; */
+    border: 1px solid lightgray;
+    border-radius: 25px ;
+    width: 460px;
+}
+.search:hover{
+    box-shadow: 0 1 6 0.1 gray;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+input{
+    border: none;
+    width: 350px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#key{
+    width: 30px;
+    height: 25px;
+    /* margin-bottom: 3px; */
+}
+#glass{
+    width: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#micro{
+    margin-left: 10px;
+    width: 19px;
+    margin: auto;
+}
+a{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+.lucky{
+    text-align: center;
+    justify-content: center;
+    margin: 15px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;      
+}
+.lucky button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border: 1px solid lightgray;
+    
+
+}
+.lang a{
+    text-decoration: underline;
+    color:#000080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px ;
+
+}
+.lang a:visited{
+    color:#000080;
+}
+.lucky1, .lucky2{
+    background-color:#F8F9FA ;
+    width: 145px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #202124;
+    margin: 25px 0px;
+
+}
+
+.header1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+}
+.header2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px ;
+}
+a:visited{
+    color: #70757A;
+}
+nav a:hover, .header2 a:hover{
+    text-decoration: underline;
+
+}
